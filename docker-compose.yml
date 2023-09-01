@@ -1,7 +1,7 @@
 version: '3.1'
 services:
   springboot:
-    image: sjdockerhandson/maven-web-application:VERSION
+    image: sjdockerhandson/dockercomposefile:VERSION
     restart: always
     ports:
     - 9090:8080
